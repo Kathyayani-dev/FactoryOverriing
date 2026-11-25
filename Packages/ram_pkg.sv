@@ -1,0 +1,16 @@
+# code for ram_package
+#  Package for RAM TB
+...
+  package ram_pkg;
+
+        // import the uvm_pkg
+        import uvm_pkg::*;
+        // include the uvm_macros.svh
+        `include "uvm_macros.svh"
+    // include the tb_defs.sv
+        `include "tb_defs.sv"
+        // include write_xtn.sv and short_xtn.sv
+        `include "write_xtn.sv"
+        `include "short_xtn.sv"
+endpackage
+...
